@@ -8,7 +8,7 @@ if (!url) {
   throw new Error("WEBSOCKET_PROVIDER is not defined.");
 }
 
-const contractAddress = "0xCF205808Ed36593aa40a44F10c7f7C2F67d4A4d4";
+const contractAddress = "0x2544A6412bc5Aec279EA0f8D017Fb4a9b6673dCA";
 const provider = new ethers.WebSocketProvider(url!);
 
 provider.on("error", (error) => {
